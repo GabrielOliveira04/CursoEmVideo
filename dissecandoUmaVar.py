@@ -1,0 +1,7 @@
+print('-----DISSECANDO UM VARIAVEL -----')
+n=input('Digite algo?')
+print('Tem espaço?', n.isspace())
+print('Tem Alfanumerico?', n.isalnum())
+print('É alfabetico?', n.isalpha())
+print('Está inteiro?', n.isnumeric())
+print('Qual é o tipo primitivo', type(n))
